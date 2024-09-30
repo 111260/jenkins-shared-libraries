@@ -6,4 +6,4 @@ def call(String Project, String ImageTag, String dockerhubuser) {
   // Pushing the image using the function's dockerhubuser parameter
   sh "docker push ${dockerhubuser}/${Project}:${ImageTag}"
 }
-}
+
